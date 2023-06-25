@@ -1,8 +1,12 @@
-# ![icon](extension/icon48.png) Sounds of GitHub
+# ![icon](extension/icon48.png) Sounds of YouTube
 
-This is a Chrome extension to play sound effects whenever you leave a reaction
-on GitHub. :thumbsup: :thumbsdown: :smile: :tada: :confused: :heart: Thanks to
-[@shayfrendt](https://github.com/shayfrendt) for the inspiration.
+This is a Chrome extension to play sound effects whenever you ban/hide a user from your YouTube channel. 
+
+Inspiration: https://twitter.com/GibiOfficial/status/1672731864623095810
+
+
+Thanks to https://github.com/cheshire137/sounds-of-github for the original code
+
 
 Choose from Super Mario, The Legend of Zelda, Warcraft II alliance,
 Warcraft II horde, Overwatch Bastion, and Overwatch D.Va sound effects!
