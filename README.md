@@ -11,10 +11,10 @@ Currently only does the Vine "Boom" sound.
 
 Extension has been updated to Manifest v3 and changed to work for the YouTube Studio as of 2023-06-24.
 
-**[Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/sounds-of-github/dahmkeokilolnpmidacepocehjjhbhnp?hl=en-US&gl=US)**
+~~[Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/sounds-of-github/plaiacjahnehfkcmlcbfommmnhpkobai?hl=en-US&gl=US)~~ Not yet approved
 
 ## Screenshots
 
-Options page (not changed from original):
+Options page:
 
-![screenshot of options](https://raw.githubusercontent.com/cheshire137/sounds-of-github/master/screenshot.png)
+![screenshot of options](https://raw.githubusercontent.com/ergosteur/sounds-of-youtube/master/screenshot.png)
