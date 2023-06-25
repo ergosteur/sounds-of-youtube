@@ -14,12 +14,12 @@ class OptionsPage {
   }
 
   getManifest() {
-    const url = chrome.extension.getURL('manifest.json')
+    const url = chrome.runtime.getURL('manifest.json')
     return window.fetch(url).then(response => response.json())
   }
 
   setup() {
-    SoundsOfGitHubStorage.load().then(options => {
+    SoundsOfYouTubeStorage.load().then(options => {
       this.options = options
       this.setSelectedVolume()
       this.setSelectedSoundPack()
@@ -76,7 +76,7 @@ class OptionsPage {
     this.options.volume = this.volumeSlider.value
     this.options.soundPack = this.soundPackMenu.value
     this.options.unreactSound = this.unreactSoundYes.checked ? 'yes' : 'no'
-    SoundsOfGitHubStorage.save(this.options).then(() => {
+    SoundsOfYouTubeStorage.save(this.options).then(() => {
       this.successEl.style.opacity = 1
       setTimeout(() => {
         this.successEl.style.opacity = 0

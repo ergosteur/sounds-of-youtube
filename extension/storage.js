@@ -1,8 +1,8 @@
-class SoundsOfGitHubStorage {
+class SoundsOfYouTubeStorage {
   static load() {
     return new Promise(resolve => {
-      chrome.storage.sync.get('soundsOfGitHub', allOptions => {
-        const options = allOptions.soundsOfGitHub || {}
+      chrome.storage.sync.get('soundsOfYouTube', allOptions => {
+        const options = allOptions.soundsOfYouTube || {}
         resolve(options)
       })
     })
@@ -10,11 +10,11 @@ class SoundsOfGitHubStorage {
 
   static save(opts) {
     return new Promise(resolve => {
-      chrome.storage.sync.set({ soundsOfGitHub: opts }, () => {
+      chrome.storage.sync.set({ soundsOfYouTube: opts }, () => {
         resolve()
       })
     })
   }
 }
 
-window.SoundsOfGitHubStorage = SoundsOfGitHubStorage
+window.SoundsOfYouTubeStorage = SoundsOfYouTubeStorage

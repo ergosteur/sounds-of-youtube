@@ -1,1 +1,3 @@
 extension/*.zip
+extension.crx
+.gitignore
