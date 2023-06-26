@@ -3,10 +3,9 @@
   "name": "Sounds of YouTube",
   "short_name": "Sounds of YouTube",
   "description": "Play a sound effect when you ban a user from your channel on YouTube.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "permissions": [
-    "storage",
-    "tabs"
+    "storage"
   ],
   "host_permissions": [
     "*://*.youtube.com/*"
