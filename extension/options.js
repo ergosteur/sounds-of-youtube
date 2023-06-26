@@ -80,7 +80,7 @@ class OptionsPage {
       this.successEl.style.opacity = 1
       setTimeout(() => {
         this.successEl.style.opacity = 0
-      }, 1500)
+      }, 30000)
     })
   }
 }
