@@ -52,7 +52,7 @@ class OptionsPage {
   }
 
   setSelectedSoundPack() {
-    const soundPack = this.options.soundPack || 'mario'
+    const soundPack = this.options.soundPack || 'vine'
     for (let opt, i = 0; opt = this.soundPackMenu.options[i]; i++) {
       if (opt.value === soundPack) {
         this.soundPackMenu.selectedIndex = i
