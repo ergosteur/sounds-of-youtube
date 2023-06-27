@@ -7,7 +7,7 @@ Inspiration: https://twitter.com/GibiOfficial/status/1672731864623095810
 
 **Thanks to https://github.com/cheshire137/sounds-of-github for the original code**
 
-Currently only does the Vine "Boom" sound.
+Default is the Vine "Boom" sound, but there are a few other sounds to choose from.
 
 Extension has been updated to Manifest v3 and changed to work for the YouTube Studio as of 2023-06-24.
 
