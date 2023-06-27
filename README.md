@@ -11,7 +11,7 @@ Currently only does the Vine "Boom" sound.
 
 Extension has been updated to Manifest v3 and changed to work for the YouTube Studio as of 2023-06-24.
 
-[Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/sounds-of-youtube/plaiacjahnehfkcmlcbfommmnhpkobai
+[Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/sounds-of-youtube/plaiacjahnehfkcmlcbfommmnhpkobai)
 
 ## Screenshots
 
